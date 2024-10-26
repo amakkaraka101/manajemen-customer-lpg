@@ -14,7 +14,7 @@ interface Customer {
 }
 
 const ITEMS_PER_PAGE = 10;
-const STATUS_OPTIONS = ['UKM', 'Household'];
+const STATUS_OPTIONS = ['UKM', 'Rumah Tangga'];
 
 export default function Dashboard() {
   const [customers, setCustomers] = useState<Customer[]>([]);
